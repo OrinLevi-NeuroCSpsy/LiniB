@@ -1,0 +1,21 @@
+.DS_Store
+
+# MkDocs build
+site/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor backup files
+*.bak
+*~
+*.swp
+*.swo
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
