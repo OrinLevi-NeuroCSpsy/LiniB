@@ -12,7 +12,7 @@ extra_css:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/orinlevi/lini1B
+      link: https://github.com/orinlevi/Lini1B
 
 theme:
   logo: assets/logo.png
@@ -67,5 +67,13 @@ extra_javascript:
 
 nav:
   - בית: index.md
-  - יחידות:
-    - יחידה 1 - מרחבים וקטוריים: units/unit1.md
+  - סיכומים:
+    - נושאים:
+      - מרחבים וקטוריים: notes/vector_spaces.md
+      - תלות ואי-תלות לינארית: notes/linear_dependence.md
+      - העתקות לינאריות: notes/linear_transformations.md
+      - דטרמיננטות: notes/determinants.md
+      - ערכים עצמיים ולכסון: notes/eigenvalues.md
+      - מכפלה פנימית: notes/inner_product.md
+  - תרגולים:
+    - תרגול 1: units/rec01.md
