@@ -71,7 +71,10 @@ nav:
     - מערכות משוואות לינאריות: notes/linear_systems.md
     - מרחבים וקטוריים: notes/vector_spaces.md
     - תלות ואי-תלות לינארית: notes/linear_dependence.md
+    - מרחבי שורות ועמודות: notes/row_column_spaces.md
     - העתקות לינאריות: notes/linear_transformations.md
+    - מטריצות דומות ושינוי בסיס: notes/similar_matrices.md
     - דטרמיננטות: notes/determinants.md
+    - כלל קרמר: notes/cramers_rule.md
     - ערכים עצמיים ולכסון (לינארית 2ב): notes/eigenvalues.md
     - מכפלה פנימית (לינארית 2ב): notes/inner_product.md
