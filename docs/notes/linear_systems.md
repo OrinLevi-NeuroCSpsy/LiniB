@@ -155,14 +155,16 @@ a_{m1} & a_{m2} & \cdots & a_{mn} & b_m
 <div class="theorem-box" markdown>
 
 **משפט:** יהיו \( c, d \) שני פתרונות של \( Ax = b \). אז:
-\[ c - d \text{ הוא פתרון של } Ax = 0 \]
+
+\( c - d \) הוא פתרון של \( Ax = 0 \)
 
 </div>
 
 <div class="theorem-box" markdown>
 
 **משפט:** אם \( c, d \) פתרונות של \( Ax = 0 \) ו-\( \alpha, \beta \in F \), אז:
-\[ \alpha c + \beta d \text{ גם פתרון של } Ax = 0 \]
+
+\( \alpha c + \beta d \) גם פתרון של \( Ax = 0 \)
 
 </div>
 

@@ -72,7 +72,8 @@
 <div class="theorem-box" markdown>
 
 **משפט (הפיכות):**
-\[ A \text{ הפיכה} \iff \det(A) \neq 0 \]
+
+\( A \) הפיכה \( \iff \det(A) \neq 0 \)
 
 ואם \( A \) הפיכה:
 \[ \det(A^{-1}) = \frac{1}{\det(A)} \]
