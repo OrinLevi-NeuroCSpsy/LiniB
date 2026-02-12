@@ -2,6 +2,18 @@
 \documentclass[11pt,a4paper]{article}
 
 % ===============================
+% Hyperref (BEFORE polyglossia for Hebrew compatibility)
+% ===============================
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  citecolor=green,
+  filecolor=magenta,
+  urlcolor=cyan
+}
+
+% ===============================
 % Language (Hebrew + English)
 % ===============================
 \usepackage{fontspec}
@@ -30,11 +42,6 @@
 % Page Layout
 % ===============================
 \usepackage[a4paper,margin=2.5cm]{geometry}
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhf{}
-\rhead{אלגברה לינארית 1ב - סיכום}
-\lhead{\thepage}
 
 % ===============================
 % Lists
@@ -126,18 +133,6 @@
   skipbelow=12pt,
   nobreak=true
 ]{notebox}
-
-% ===============================
-% Hyperref (must be last)
-% ===============================
-\usepackage{hyperref}
-\hypersetup{
-  colorlinks=true,
-  linkcolor=blue,
-  citecolor=green,
-  filecolor=magenta,
-  urlcolor=cyan
-}
 
 % Title
 \title{\textbf{אלגברה לינארית 1ב}\\[0.5cm]\large סיכום מקיף לקורס}
