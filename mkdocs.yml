@@ -78,3 +78,5 @@ nav:
     - כלל קרמר: notes/cramers_rule.md
     - ערכים עצמיים ולכסון (לינארית 2ב): notes/eigenvalues.md
     - מכפלה פנימית (לינארית 2ב): notes/inner_product.md
+  - תרגול:
+    - שאלות ממבחנים: practice/exam_questions.md

@@ -257,3 +257,27 @@
   margin: 16px 0;
   border-radius: 0 8px 8px 0;
 }
+
+/* === Exam Question Box === */
+
+.exam-box {
+  background: rgba(159, 168, 218, 0.1);
+  border: 2px solid var(--pastel-indigo);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+}
+
+.exam-box strong {
+  color: var(--pastel-purple);
+}
+
+/* === Tip Box === */
+
+.tip-box {
+  background: rgba(165, 214, 167, 0.15);
+  border: 2px dashed var(--pastel-green);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+}
