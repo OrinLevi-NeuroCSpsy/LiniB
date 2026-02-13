@@ -1,10 +1,10 @@
-site_name: אלגברה לינארית 1ב
-site_description: סיכום מקיף לקורס אלגברה לינארית 1ב, אוניברסיטת תל אביב
+site_name: אלגברה לינארית
+site_description: סיכום מקיף לקורסים אלגברה לינארית 1ב ו-2ב, אוניברסיטת תל אביב
 docs_dir: docs
-site_url: https://orinlevi.github.io/Lini1B/
+site_url: https://orinlevi.github.io/LinearAlgebra/
 
-repo_name: Lini1B
-repo_url: https://github.com/orinlevi/Lini1B
+repo_name: LinearAlgebra
+repo_url: https://github.com/OrinLevi-NeuroCSpsy/LinearAlgebra
 
 extra_css:
   - stylesheets/extra.css
@@ -12,7 +12,7 @@ extra_css:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/orinlevi/Lini1B
+      link: https://github.com/OrinLevi-NeuroCSpsy/LinearAlgebra
 
 theme:
   logo: assets/logo.png
@@ -40,6 +40,7 @@ theme:
     - navigation.tracking
     - navigation.sections
     - navigation.expand
+    - navigation.tabs
     - search.highlight
     - content.code.copy
 
@@ -67,19 +68,24 @@ extra_javascript:
 
 nav:
   - בית: index.md
-  - סיכומים:
-    - מערכות משוואות לינאריות: notes/linear_systems.md
-    - מרחבים וקטוריים: notes/vector_spaces.md
-    - תלות ואי-תלות לינארית: notes/linear_dependence.md
-    - מרחבי שורות ועמודות: notes/row_column_spaces.md
-    - העתקות לינאריות: notes/linear_transformations.md
-    - מטריצות דומות ושינוי בסיס: notes/similar_matrices.md
-    - דטרמיננטות: notes/determinants.md
-    - כלל קרמר: notes/cramers_rule.md
-    - ערכים עצמיים ולכסון (לינארית 2ב): notes/eigenvalues.md
-    - מכפלה פנימית (לינארית 2ב): notes/inner_product.md
-  - תרגול:
-    - שאלות ממבחנים: practice/exam_questions.md
-    - שאלות משיעורי בית: practice/hw_questions.md
-    - שאלות מתרגולים: practice/recitation_questions.md
-    - טריקים וטכניקות: practice/tricks_cheatsheet.md
+  - לינארית 1ב:
+    - סיכומים:
+      - מערכות משוואות לינאריות: lini1b/notes/linear_systems.md
+      - מרחבים וקטוריים: lini1b/notes/vector_spaces.md
+      - תלות ואי-תלות לינארית: lini1b/notes/linear_dependence.md
+      - מרחבי שורות ועמודות: lini1b/notes/row_column_spaces.md
+      - העתקות לינאריות: lini1b/notes/linear_transformations.md
+      - מטריצות דומות ושינוי בסיס: lini1b/notes/similar_matrices.md
+      - דטרמיננטות: lini1b/notes/determinants.md
+      - כלל קרמר: lini1b/notes/cramers_rule.md
+    - תרגול:
+      - שאלות ממבחנים: lini1b/practice/exam_questions.md
+      - שאלות משיעורי בית: lini1b/practice/hw_questions.md
+      - שאלות מתרגולים: lini1b/practice/recitation_questions.md
+      - טריקים וטכניקות: lini1b/practice/tricks_cheatsheet.md
+  - לינארית 2ב:
+    - סיכומים:
+      - ערכים עצמיים ולכסון: lini2b/notes/eigenvalues.md
+      - מכפלה פנימית: lini2b/notes/inner_product.md
+    - תרגול:
+      - בקרוב...: lini2b/practice/coming_soon.md
