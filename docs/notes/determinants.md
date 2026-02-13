@@ -131,3 +131,126 @@
 הפתרונות הם הערכים העצמיים של \( A \).
 
 </div>
+
+---
+
+## מינור וקופקטור
+
+<div class="definition-box" markdown>
+
+**מינור \( M_{ij} \):** הדטרמיננטה של המטריצה המתקבלת ממחיקת שורה \( i \) ועמודה \( j \) מ-\( A \).
+
+**קופקטור (משלים אלגברי) \( C_{ij} \):**
+\[ C_{ij} = (-1)^{i+j} M_{ij} \]
+
+</div>
+
+<div class="warning-box" markdown>
+
+**שימו לב לסימן!**
+
+\[
+\begin{pmatrix} + & - & + & \cdots \\ - & + & - & \cdots \\ + & - & + & \cdots \\ \vdots & \vdots & \vdots & \ddots \end{pmatrix}
+\]
+
+הסימן נקבע לפי \( (-1)^{i+j} \).
+
+</div>
+
+---
+
+## פיתוח לפלס (Laplace Expansion)
+
+<div class="theorem-box" markdown>
+
+**פיתוח לפי שורה \( i \):**
+\[ \det(A) = \sum_{j=1}^{n} a_{ij} C_{ij} = \sum_{j=1}^{n} (-1)^{i+j} a_{ij} M_{ij} \]
+
+**פיתוח לפי עמודה \( j \):**
+\[ \det(A) = \sum_{i=1}^{n} a_{ij} C_{ij} = \sum_{i=1}^{n} (-1)^{i+j} a_{ij} M_{ij} \]
+
+</div>
+
+<div class="example-box" markdown>
+
+**טיפ:** תמיד פתחו לפי השורה/עמודה עם הכי הרבה אפסים - זה מקטין את כמות החישובים!
+
+</div>
+
+---
+
+## המטריצה המצורפת (Adjugate Matrix)
+
+<div class="definition-box" markdown>
+
+**מטריצה מצורפת \( \text{adj}(A) \):**
+
+המטריצה שאיבריה הם הקופקטורים, **עם שחלוף**:
+\[ (\text{adj}(A))_{ij} = C_{ji} \]
+
+**שימו לב:** האינדקסים מתחלפים!
+
+</div>
+
+<div class="theorem-box" markdown>
+
+**זהות חשובה:**
+\[ A \cdot \text{adj}(A) = \text{adj}(A) \cdot A = \det(A) \cdot I \]
+
+**מסקנה - נוסחה להופכי:**
+\[ A^{-1} = \frac{1}{\det(A)} \cdot \text{adj}(A) \]
+
+</div>
+
+<div class="example-box" markdown>
+
+**למטריצה \( 2 \times 2 \):**
+\[ A = \begin{pmatrix} a & b \\ c & d \end{pmatrix} \implies \text{adj}(A) = \begin{pmatrix} d & -b \\ -c & a \end{pmatrix} \]
+
+ולכן:
+\[ A^{-1} = \frac{1}{ad-bc} \begin{pmatrix} d & -b \\ -c & a \end{pmatrix} \]
+
+</div>
+
+---
+
+## מטריצת בלוקים
+
+<div class="theorem-box" markdown>
+
+**דטרמיננטה של מטריצת בלוקים משולשת:**
+
+\[ \det\begin{pmatrix} B & C \\ 0 & D \end{pmatrix} = \det(B) \cdot \det(D) \]
+
+\[ \det\begin{pmatrix} B & 0 \\ C & D \end{pmatrix} = \det(B) \cdot \det(D) \]
+
+</div>
+
+<div class="warning-box" markdown>
+
+**זהירות:** זה עובד רק כשיש בלוק אפסים! אם שני הבלוקים "מלאים", אי אפשר להפריד את הדטרמיננטה.
+
+</div>
+
+---
+
+## השפעת פעולות שורה על הדטרמיננטה
+
+<div class="theorem-box" markdown>
+
+| פעולה | השפעה על \( \det \) |
+|-------|---------------------|
+| \( R_i \leftrightarrow R_j \) (החלפת שורות) | כפל ב-\( (-1) \) |
+| \( R_i \to \alpha R_i \) (כפל שורה בסקלר) | כפל ב-\( \alpha \) |
+| \( R_i \to R_i + \alpha R_j \) (הוספת כפולה) | **ללא שינוי** |
+
+**אותו דבר עבור פעולות עמודה!**
+
+</div>
+
+<div class="theorem-box" markdown>
+
+**אדישות לשחלוף:**
+\[ \det(A^T) = \det(A) \]
+
+לכן כל תכונה שנכונה לשורות, נכונה גם לעמודות.
