@@ -41,6 +41,7 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.tabs
+    - navigation.indexes
     - search.highlight
     - content.code.copy
 
@@ -70,6 +71,7 @@ extra_javascript:
 nav:
   - בית: index.md
   - לינארית 1ב:
+    - lini1b/index.md
     - סיכומים:
       - מערכות משוואות לינאריות: lini1b/notes/linear_systems.md
       - מרחבים וקטוריים: lini1b/notes/vector_spaces.md
@@ -85,6 +87,7 @@ nav:
       - שאלות מתרגולים: lini1b/practice/recitation_questions.md
       - טריקים וטכניקות: lini1b/practice/tricks_cheatsheet.md
   - לינארית 2ב:
+    - lini2b/index.md
     - סיכומים:
       - ערכים עצמיים ולכסון: lini2b/notes/eigenvalues.md
       - מכפלה פנימית: lini2b/notes/inner_product.md
