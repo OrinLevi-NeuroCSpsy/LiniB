@@ -1,10 +1,10 @@
 site_name: אלגברה לינארית
 site_description: סיכום מקיף לקורסים אלגברה לינארית 1ב ו-2ב, אוניברסיטת תל אביב
 docs_dir: docs
-site_url: https://orinlevi.github.io/LinearAlgebra/
+site_url: https://orinlevi-neurocspsy.github.io/LiniB/
 
-repo_name: LinearAlgebra
-repo_url: https://github.com/OrinLevi-NeuroCSpsy/LinearAlgebra
+repo_name: LiniB
+repo_url: https://github.com/OrinLevi-NeuroCSpsy/LiniB
 
 extra_css:
   - stylesheets/extra.css
@@ -12,7 +12,7 @@ extra_css:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/OrinLevi-NeuroCSpsy/LinearAlgebra
+      link: https://github.com/OrinLevi-NeuroCSpsy/LiniB
 
 theme:
   logo: assets/logo.png
@@ -38,11 +38,11 @@ theme:
         name: מצב לילה
   features:
     - navigation.tracking
-    - navigation.sections
     - navigation.tabs
     - navigation.indexes
     - search.highlight
     - content.code.copy
+    - toc.integrate
 
 plugins:
   - search:
